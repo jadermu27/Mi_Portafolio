@@ -249,39 +249,9 @@ footer {
     font-size: 1rem;
 }
 
-/* Formulario */
-.formulario-contacto {
-    flex: 2;
-    min-width: 300px;
-    display: flex;
-    flex-direction: column;
-}
-
-.formulario-contacto input, 
-.formulario-contacto textarea {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 15px;
-    border: 1px solid var(--color-acento);
-    border-radius: 5px;
-    background: transparent;
-    color: var(--color-primario);
-    font-family: inherit;
-}
-
-.formulario-contacto input:focus, 
-.formulario-contacto textarea:focus {
-    outline: none;
-    border-color: var(--color-primario);
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
-}
-
-/* Botón (usando tu clase .btn para consistencia) */
-.formulario-contacto .btn-enviar {
-    border: none;
-    cursor: pointer;
-    font-weight: bold;
-    text-align: center;
+.img-w{
+    height: 40px;
+    width: 40px;
 }
 
 /* ======================================== */
