@@ -181,7 +181,7 @@ footer {
     padding: 20px;
     border-radius: 10px;
     flex: 1;
-    text-align: center;
+    text-align: center
 }
 
 .sobre-mi-cards .card2 {
@@ -193,6 +193,14 @@ footer {
     text-align: center;
 }
 
+.sobre-mi-cards .card3 {
+    background: var(--color-fondo-suave);
+    color: var(--color-secundario);
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    text-align: center
+}
 /* ======================================== */
 /* MEDIAS QUERIES */ 
 /* ======================================== */
