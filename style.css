@@ -202,6 +202,134 @@ footer {
     text-align: center
 }
 /* ======================================== */
-/* MEDIAS QUERIES */ 
+/* 7. SECCION DE CONTACTO */
 /* ======================================== */
 
+.contacto {
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 40px 20px;
+    color: var(--color-primario);
+}
+
+.contacto h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.contenedor-contacto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    background: var(--color-secundario);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.info-contacto {
+    flex: 1;
+    min-width: 280px;
+    background: var(--color-primario);
+    color: var(--color-secundario);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.info-contacto h3 {
+    margin-bottom: 20px;
+    color: var(--color-acento);
+}
+
+.info-contacto p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+/* Imagen de WhatsApp */
+.img-w{
+    height: 40px;
+    width: 40px;
+}
+
+.whatsapp-item {
+    display: flex;         
+    align-items: center;   
+    gap: 10px;             
+    margin-top: 5px;       
+}
+
+.whatsapp-item p {
+    margin-bottom: 0; 
+}
+
+.img-w {
+    height: 30px;
+    width: 30px;
+}
+
+/* Imagen de Gmail */
+
+.gmail-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;         
+    margin-bottom: 15px;
+}
+
+.img-g {
+    width: 30px;         
+    height: 30px; 
+    object-fit: contain;
+    flex-shrink: 0;   
+}
+
+.gmail-item p {
+    margin: 0;           
+}
+
+/* Imagen de Ubicación */
+
+.Nacionalidad-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+.icono-wrapper {
+    width: 30px;           
+    display: flex;
+    justify-content: center; 
+    flex-shrink: 0;        
+}
+
+.img-b {
+    width: 100%;           
+    max-width: 25px;       
+    height: auto;
+    object-fit: contain;
+}
+
+.Nacionalidad-item p {
+    margin: 0;
+    color: var(--color-secundario);
+}
+
+/* ======================================== */
+/* 8. MEDIAS QUERIES */ 
+/* ======================================== */
+
+@media (max-width: 768px) {
+    .sobre-mi, .contenedor-contacto {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+    
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+}
